@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background: url(../Assets/Imagens/fundo.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    background: url(../Assets/Imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../Assets/Imagens/logo.png);
+    text-indent: -3000px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    padding: 0.5em 1.5em;
+    display: block;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+    background: url(../Assets/Imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}
+
+body.home #navegacao a#home,    
+body.brasil #navegacao a#brasil, 
+body.internacional #navegacao a#internacional, 
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,  
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos {
+    color: white;
+    background: #de003e;
+    cursor: text;   
+} 
+
+#duas-colunas #primario {
+    width: 555px;
+    margin: 0 0 20px 195x;
+    float: left;
+}
+
+#uma-coluna #primario {
+    width: 1100px;
+    margin: 0 0 20px -190px;
+    float: left;
+}
+
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#primario {
+    width: 270px;
+    margin: 0 0 20px;
+    float: left;
+}
+
+#secundario {
+    width: 270px;
+    margin: 0 0 20px;
+    float: left;
+}
+
+#lateral {
+    width: 180px;
+    margin: 0 0 20px -750px;
+    float: left;
+}
+
+.caixa {
+    margin: 10px 0;
+    padding: 5px 0 5px 0;
+    background: #f3f3f3 url(../Assets/Imagens/fundo-caixa.png);
+    
+    
+}
+
+h2 {
+    font: 1.1em;
+    background: #294c71;
+    color: white;
+    padding: 8px;
+}
+
+.caixa-conteudo {
+    background: white;  
+    padding: 8px;
+    margin-top: 8px;
+}
+
+.titulo-h3 { 
+    background: #b10333;
+    color: white;
+}
+
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#primario {
+    width: 270px;
+    margin: 0 0 20px 195px;
+    float: left;
+}
+
+#secundario {
+    width: 270px;
+    margin: 0 0 20px 15px;
+    float: left;
+}
+
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+.lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+.lista-noticias li a {
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.lista-noticias li a h3 {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: blue;
+}
+
+.lista-noticias li:hover {
+    background: #eee;
+}
+
+.lista-entrevistas li a {
+    text-decoration: none;
+    color: black;
+}
+
+.lista-entrevistas li {
+    padding: 10px;
+    border-bottom: 1px solid #294c71;
+    
+}
+
+.lista-entrevistas li:hover {
+    background: #ccc;
+}
+
+.lista-entrevistas li a:hover {
+    margin-left: 10px;
+    color: #de003e;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 8px;
+    width: 125px;
+    font-size: 0.8em;
+    background-color: white;
+}
+
+button {
+    width: 80px;
+    color: white;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #66001d;
+}
+
+#lateral-fraiburgo {
+    width: 300px;
+    margin: -359px 0 20px -590px;
+    float: left;
+}
+
+.caixa-fraiburgo {
+    background: white;  
+    padding: 8px;
+    margin-top: 8px;
+}
+
+#baixo-bolsa {
+    width: 860px;
+    margin: 0 0 20px 0;
+    float: left;
+}
+
+.baixo-bolsa {
+    background: white;  
+    padding: 8px;
+    margin-top: 8px;
+}
+
+#baixo-investimentos {
+    width: 860px;
+    margin: 0 0 20px 0;
+    float: left;
+}
+
+.baixo-investimentos {
+    background: white;  
+    padding: 8px;
+    margin-top: 8px;
+}
